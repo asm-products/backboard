@@ -1,0 +1,12 @@
+<template name="repo">
+	{{#each issues}}
+	  <div class="block-update-card">
+	    <div class="update-card-body">
+	      {{title}} -
+	      {{#each labels}}
+	      	{{name}}
+	      {{/each}}
+	    </div>
+	  </div>
+	{{/each}}
+</template>
